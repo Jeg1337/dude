@@ -1,5 +1,5 @@
 class Cat {
-	public void meow() {
-        System.out.println("MEOW");
+	public String meow() {
+        return "MEOW";
     }
 }

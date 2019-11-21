@@ -1,5 +1,5 @@
 class Dog {
-	public void bark() {
-        System.out.println("WOOF-WOOF ARF-ARF");
+	public String bark() {
+    	return "WOOF-WOOF ARF-ARF";
     }
 }
