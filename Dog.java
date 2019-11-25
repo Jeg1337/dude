@@ -1,5 +1,5 @@
-class Dog {
-	public String bark() {
-    	return "WOOF-WOOF ARF-ARF";
-    }
+class Dog extends Animal{
+	public String makeNoise() {
+		return "pizdec";
+	}
 }

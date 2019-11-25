@@ -1,12 +1,18 @@
-class Dude {
-    Cat first = new Cat();
-    Dog second = new Dog();
-    Leha third = new Leha();
-    Turkey forth = new Turkey();
-    Duck fifth = new Duck();
-    Goose six = new Goose();
+import java.util.ArrayList;
 
-	public String call() {
-        return "рейнджеры, объединяемся!!!!\n" + first.meow() + "\n" + second.bark() + "\n" + third.call() + '\n' + forth.clucks() + '\n' + fifth.call() + '\n' + six.call();
+class Dude {
+
+    private ArrayList<Animal> animals = new ArrayList<>();
+
+    public ArrayList<Animal> getAnimals() {
+        return animals;
+    }
+
+    public String alo() {
+        String line = "";
+        for(int i = 0; i < animals.size(); i++) {
+            line += (animals.get(i).panic() + '\n');
+        }
+        return line;
     }
 }

@@ -1,5 +1,5 @@
-class Cat {
-	public String meow() {
-        return "MEOW";
+class Cat extends Animal {
+    public String makeNoise() {
+        return "meow";
     }
 }

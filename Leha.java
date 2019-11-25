@@ -1,5 +1,5 @@
-class Leha {
-	public String call() {
-        return "ХОЧУ АССОРТИ КУРИНОЕ";
+class Leha extends Animal{
+    public String makeNoise() {
+        return "blya obosrus sha";
     }
 }

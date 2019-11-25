@@ -1,5 +1,5 @@
-class Duck {
-	public String call() {
-        return "QUACK";
+class Duck extends Animal{
+    public String makeNoise() {
+        return "oh blyat";
     }
 }

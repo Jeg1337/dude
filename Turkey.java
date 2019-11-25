@@ -1,5 +1,5 @@
-class Turkey {
-    public String clucks() {
-        return "KEE-KEES";
+class Turkey extends Animal{
+    public String makeNoise() {
+        return "u suka";
     }
 }

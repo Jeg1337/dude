@@ -1,5 +1,5 @@
-class Pig {
-	public String oink() {
-        return "OINK";
-    }
+class Pig extends Animal{
+	public String makeNoise() {
+		return "suka";
+	}
 }
