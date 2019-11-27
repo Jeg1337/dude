@@ -15,6 +15,10 @@ class Testmain {
         test.getAnimals().add(forth);
         test.getAnimals().add(fifth);
         test.getAnimals().add(six);
+
+        test.getAnimals().get(1).setSize(10);
+
+        System.out.println(test.getAnimals().get(1).getSize());
         System.out.println(test.alo());
     }
 }
