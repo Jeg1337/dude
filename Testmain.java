@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 class Testmain {
     public static void main(String[] args) {
         Dude test = new Dude();
@@ -8,6 +11,11 @@ class Testmain {
         Turkey forth = new Turkey();
         Duck fifth = new Duck();
         Goose six = new Goose();
+
+        Map<Integer, Dude> dudes = new HashMap<Integer, Dude>();
+
+        dudes.put(0, new Dude("Lesha"));
+        dudes.put(1, new Dude("Sanya"));
 
         test.getAnimals().add(first);
         test.getAnimals().add(second);

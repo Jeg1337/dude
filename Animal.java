@@ -1,4 +1,4 @@
-class Animal {
+abstract class Animal {
 	private int size;
 
 	public int getSize() {
@@ -8,12 +8,10 @@ class Animal {
 	public void setSize(int value) {
 		size = value;
 	}
-	
+
 	public String panic() {
 		return "blya " + makeNoise();
 	}
 
-    public String makeNoise() {
-        return "default";
-    }
+    public abstract String makeNoise();
 }
