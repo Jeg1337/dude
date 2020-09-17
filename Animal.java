@@ -10,7 +10,7 @@ abstract class Animal {
 	}
 
 	public String panic() {
-		return "blya " + makeNoise();
+		return "wow " + makeNoise();
 	}
 
     public abstract String makeNoise();
